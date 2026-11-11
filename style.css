@@ -1,0 +1,624 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+/* Header section styling started */
+.header-wrapper{
+    display: flex;
+    justify-content: flex-start;
+    margin: 40px 0 0 100px;
+    gap: 40px;
+}
+.header-wrapper .menu-links nav ul{
+    display: flex;
+    gap: 40px;
+}
+.header-wrapper .menu-links nav ul li{
+    list-style-type: none;
+    
+}
+.header-wrapper .menu-links nav ul li a{
+    color: #121212;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 3%;
+}
+.header-wrapper .menu-links nav ul .btns{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-left: 600px;
+}
+.header-wrapper .menu-links nav ul .btns .btn2 a{
+    border-radius: 10px;
+    background-color: #4D77FF;
+    color: white;
+    padding: 12px 22px;
+    margin-bottom: 20px;
+    margin-top: -12px
+}
+/* Header section styling ended */
+
+/* Hero section styling started */
+.hero-section .hero-wrapper{
+    display: flex;
+    justify-content: center;
+}
+.hero-section .hero-wrapper .left-side{
+    margin: 184px 0px 0px 100px;
+    width: 50%;
+}
+.hero-section .hero-wrapper .left-side h1{
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 70px;
+    letter-spacing: 2%;
+}
+.hero-section .hero-wrapper .left-side h1 span{
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 70px;
+    letter-spacing: 2%;
+    color: #4D77FF;
+}
+.hero-section .hero-wrapper .left-side p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 3%;
+    color: #696969;
+    margin-top: 32px;
+}
+.hero-section .hero-wrapper .left-side .contact-btn a{
+    border-radius: 10px;
+    padding: 16px 36px;
+    gap: 10px;
+    background-color: #4D77FF;
+    text-decoration: none;
+    color: white;
+}
+.hero-section .hero-wrapper .left-side .contact-btn{
+    margin-top: 32px;
+}
+.hero-section .hero-wrapper .right-side{
+    position: relative;
+    overflow: hidden;
+    width: 50%;
+}
+.hero-section .hero-wrapper .right-side .circle{
+    position: absolute;
+    bottom: -41px;
+    left: -107px;
+    z-index: 1;
+}
+.hero-section .hero-wrapper .right-side .doctor{
+    position: absolute;
+    z-index: 2;
+    left: 44px;
+}
+.hero-section .hero-wrapper .right-side .schedule-card .schedule-card-wrapper{
+    width: 202px;
+    height: 236px;
+    border-radius: 10px;
+    padding: 1px;
+    gap: 20px;
+    box-shadow: -4px -10px 50px 0px #1212121A;
+    position: absolute;
+    top: 222px;
+    left: 42px;
+    background-color: white;
+    z-index: 4;
+    align-items: center;
+}
+.hero-section .hero-wrapper .right-side .schedule-card .schedule-card-wrapper .doc-img img{
+    width: 80px;
+    height: 80px;
+    align-items: center;
+    margin: 17px 61px;
+}
+.hero-section .hero-wrapper .right-side .schedule-card .schedule-card-wrapper h4{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 3%;
+    text-align: center;
+}
+.hero-section .hero-wrapper .right-side .schedule-card .schedule-card-wrapper p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 3%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.hero-section .hero-wrapper .right-side .schedule-card .schedule-card-wrapper a{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 3%;
+    text-align: center;
+    margin: 0px 1%;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: #4D77FF;
+    color: white;
+    padding: 10px 26px;
+}
+
+
+/* hero section styling ended */
+
+/* find doctor section started */
+.find-doctor-wrapper .top-content{
+    text-align: center;
+    margin-top: 120px;
+}
+.find-doctor-wrapper .top-content h4{
+    color: #4D77FF;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 3%;
+}
+.find-doctor-wrapper .top-content h2{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 1.5%;
+    color: #121212;
+}
+.find-doctor-wrapper .card-wrapper{
+    display: flex;
+    align-items: enter;
+    justify-content: center;
+    gap: 30px;
+    margin: 35px 100px;
+
+}
+.find-doctor-wrapper .card-wrapper .card{
+    padding: 40px;
+    border-top: 3px solid #4D77FF;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 10px 40px 0px #1212121A;
+    width: 300px;
+}
+.find-doctor-wrapper .card-wrapper .card img{
+    margin: 32px 0 15px 0;
+    width: 50px;
+    height: 50px;
+}
+.find-doctor-wrapper .card-wrapper .card h5{
+    margin: 15px 0 15px 0;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 3%;
+    color: #121212;
+}
+.find-doctor-wrapper .card-wrapper .card p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 3%;
+    color: #696969;
+}
+/* fast solution section styling ended */
+
+/* Find Doctor section styling started */
+.find-doctor .wrapper{
+    display: flex;
+    justify-content: center;
+}
+.find-doctor .wrapper .left{
+    margin: 184px 0px 0px 100px;
+    width: 50%;
+}
+.find-doctor .wrapper .left h4{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 3%;
+    color: #4D77FF;
+    margin-bottom: 10px;    
+}
+.find-doctor .wrapper .left h2{
+    color: #121212;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 1.5%;
+    margin-bottom: 30px;
+}
+.find-doctor .wrapper .left p{
+    color:#121212;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2%;
+    margin-bottom: 30px;
+}
+.find-doctor .wrapper .left .bold-content .same-line{
+    display: flex;
+}
+.find-doctor .wrapper .left .bold-content .same-line2{
+    display: flex;
+}
+.find-doctor .wrapper .left .bold-content img{
+    height: 30px;
+    width: 30px;
+}
+.find-doctor .wrapper .left .bold-content .same-line p{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2%;
+    color: #121212;
+    padding-left: 10px;
+    margin-top: 3px;
+}
+.find-doctor .wrapper .left .bold-content .same-line2 p{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2%;
+    color: #121212;
+    padding-left: 10px;
+    margin-top: 3px;
+}
+.find-doctor .wrapper .left .doctors a{
+    border-radius: 10px;
+    background-color: #4D77FF;
+    padding: 16px 36px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 3%;
+}
+.find-doctor .wrapper .left .doctors{
+    margin-top: 30px;
+}
+.find-doctor .wrapper .right{
+    position: relative;
+    overflow: hidden;
+    width: 50%;
+}
+.find-doctor .wrapper .right .circle{
+    position: absolute;
+    top: 253px;
+    left: 0;
+    z-index: 1;
+}
+.find-doctor .wrapper .right .doctor-img{
+    position: absolute;
+    top: 53px;
+    left: 164px;
+    z-index: 2;
+}
+.find-doctor .wrapper .right .doc-card .doc-card-wrapper{
+    width: 202px;
+    height: 256px;
+    border-radius: 10px;
+    padding: 18px 30px;
+    gap: 20px;
+    box-shadow: -4px -10px 50px 0px #1212121A;
+    position: absolute;
+    top: 222px;
+    left: 42px;
+    background-color: white;
+    z-index: 4;
+}
+.find-doctor .wrapper .right .doc-card .doc-card-wrapper .card-title h4{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 3%;
+    
+}
+.find-doctor .wrapper .right .doc-card .doc-card-wrapper .card-title p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 3%;
+}
+.find-doctor .wrapper .right .doc-card .doc-card-wrapper .doc1-img{
+    display: flex;
+    margin-top: 20px ;
+}
+.find-doctor .wrapper .right .doc-card .doc-card-wrapper .doc1-img h4{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 3%;
+    margin: 12px 2px;
+}
+.find-doctor .wrapper .right .doc-card .doc-card-wrapper .subtitle1{
+    font-weight: 400;    
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 3%;
+    margin: -21px 0px 39px 52px;
+    
+}
+
+.find-doctor .wrapper .right .doc-card .doc-card-wrapper .doc2-img{
+    display: flex;
+    margin-top: 20px;
+}
+.find-doctor .wrapper .right .doc-card .doc-card-wrapper .doc1-img img{
+    width: 50px;
+    height: 50px;
+}
+.find-doctor .wrapper .right .doc-card .doc-card-wrapper .doc2-img img{
+    width: 50px;
+    height: 50px;
+}
+.find-doctor .wrapper .right .doc-card .doc-card-wrapper .doc2-img h4{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 3%;
+    margin: 12px 2px;;
+}
+.find-doctor .wrapper .right .doc-card .doc-card-wrapper .subtitle2{
+    font-weight: 400;    
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 3%;
+    margin: -21px 0px 39px 52px;
+    
+}
+
+
+/* find doctor section ended */
+
+/* Make a schedule section started */
+.scheulde-maker .wrapper{
+    display: flex;
+    justify-content: center;
+}
+.scheulde-maker .wrapper .right{
+    margin: 184px 0px 0px 100px;
+    width: 50%;
+}
+.scheulde-maker .wrapper .right h4{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 3%;
+    color: #4D77FF;
+    margin-bottom: 10px;    
+}
+.scheulde-maker .wrapper .right h2{
+    color: #121212;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 1.5%;
+    margin-bottom: 30px;
+}
+.scheulde-maker .wrapper .right p{
+    color:#121212;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2%;
+    margin-bottom: 30px;
+}
+.scheulde-maker .wrapper .right .bold-content .same-line{
+    display: flex;
+}
+.scheulde-maker .wrapper .right .bold-content .same-line2{
+    display: flex;
+}
+.scheulde-maker .wrapper .right .bold-content img{
+    height: 30px;
+    width: 30px;
+}
+.scheulde-maker .wrapper .right .bold-content .same-line p{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2%;
+    color: #121212;
+    padding-left: 10px;
+    margin-top: 3px;
+}
+.scheulde-maker .wrapper .right .bold-content .same-line2 p{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2%;
+    color: #121212;
+    padding-left: 10px;
+    margin-top: 3px;
+}
+.scheulde-maker .wrapper .right .schedule-btn a{
+    border-radius: 10px;
+    background-color: #4D77FF;
+    padding: 16px 36px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 3%;
+}
+.scheulde-maker .wrapper .right .schedule-btn{
+    margin-top: 30px;
+}
+.scheulde-maker .wrapper .left .img-border{
+    width: 626px;
+    height: 393px;
+    border: 2px solid #4D77FF;
+    border-radius: 44%;
+    position: relative;
+    top: 176px;
+    left: 35px;
+    overflow: hidden;
+}
+.scheulde-maker .wrapper .left .img-border img{
+    border-radius: 44%;
+    position: absolute;
+    top: 2px;
+    left: -3px;
+}
+
+/* Ratng section started */
+.rating .rating-wrapper .top-content{
+    text-align: center;
+    margin-top: 120px;
+}
+.rating .rating-wrapper .top-content h4{
+    color: #4D77FF;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 3%;
+}
+.rating .rating-wrapper .top-content h2{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 1.5%;
+    color: #121212;
+}
+.rating .rating-wrapper .card-wrapper{
+    display: flex;
+    align-items: enter;
+    justify-content: center;
+    gap: 30px;
+    margin: 35px 100px;
+}
+.rating .rating-wrapper .card-wrapper .card{
+    padding: 40px;
+    border-top: 3px solid #4D77FF;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 10px 40px 0px #1212121A;
+    width: 300px;
+    text-align: center;
+}
+.rating .rating-wrapper .card-wrapper .card h5{
+    margin: 15px 0 15px 0;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 28px;
+    letter-spacing: 3%;
+    color: #121212;
+}
+/* Rating section ended */
+
+/* Feedback Section Started */
+.feedback .master-div{
+    display: flex;
+    justify-content: center;
+    background-color: #EDF1FF;
+    width: 100%;
+    height: 350px;
+}
+.feedback .feedback-wrapper .top-content h2{
+    font-weight: 700;   
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 1.5%;
+    margin-top: 120px;
+    text-align: center;
+}
+.feedback .feedback-wrapper .top-content p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 1.5%;
+    text-align: center;
+    margin-top: 20px;
+    color: #696969;
+    margin-bottom: 20px;
+}
+.feedback .feedback-wrapper .master-div .img-border{
+    border: 2px solid #4D77FF;
+    width: 420px;
+    height: 360px;
+    position: relative;
+    top: 71px;
+    left: 8px;
+}
+.feedback .feedback-wrapper .master-div .left-side{
+    width: 50%;
+    position: relative;
+}
+.feedback .feedback-wrapper .master-div .left-side img{
+    position: absolute;
+    top: 59px;
+    left: 167px;
+}
+.feedback .feedback-wrapper .master-div .right-side{
+    width: 50%;
+}
+.feedback .feedback-wrapper .master-div .right-side p{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 40px;
+    letter-spacing: 3%;
+    padding: 109px 10px 20px 4px;
+}
+.feedback .feedback-wrapper .master-div .right-side .note{
+    position: relative;
+    top: 117px;
+    left: 0;
+}
+.feedback .feedback-wrapper .master-div .right-side .note h2{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 3%;
+    color: #121212;
+}
+.feedback .feedback-wrapper .master-div .right-side .note h4{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 3%;
+    color: #696969;
+    margin-top: 10px;
+}
+/* Feedback section ended */
+
+/* Footer section started */
+.footer-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin: 220px 50px 0px 100px;
+    gap: 120px;
+}
+.footer-wrapper .one img{
+    margin-bottom: 20px;
+}
+.footer-wrapper .one p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 1.5%;
+    color: #121212;
+}
+.footer-wrapper .links h2{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 3%;
+    
+}
+.footer-wrapper .links nav ul li{
+    list-style-type: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 1.5%;
+}
+
